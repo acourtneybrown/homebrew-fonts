@@ -1,4 +1,4 @@
-cask 'font-3270-nerd-font' do
+cask 'font-kernit' do
   version '1.0.0'
   sha256 '2619ed0ce666d716cf627ac1abf688c1a4da8f326837308c448423694f434b84'
 
