@@ -1,16 +1,14 @@
 cask "font-meslolgs-nf" do
-  version "1.0.0"
-  sha256 :no_check
+  version "2.3.3"
+  sha256 "54935f4c429506b135f8a0dee81c924556e7ccdb5b8eca254c334c420c92d454"
 
-  url "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf"
-  url "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf"
-  url "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf"
-  url "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf"
+  url "https://github.com/romkatv/powerlevel10k-media/archive/refs/tags/v2.3.3.zip",
+      verified: "github.com/romkatv/powerlevel10k-media/"
   name "MesloLGS NF"
   homepage "https://github.com/romkatv/powerlevel10k/blob/master/font.md#manual-font-installation"
 
-  font "MesloLGS%20NF%20Regular.ttf"
-  font "MesloLGS%20NF%20Bold.ttf"
-  font "MesloLGS%20NF%20Italic.ttf"
-  font "MesloLGS%20NF%20Bold%20Italic.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Regular.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Bold.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Italic.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Bold%20Italic.ttf"
 end
