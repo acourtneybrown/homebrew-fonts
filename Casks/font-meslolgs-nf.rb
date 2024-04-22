@@ -6,8 +6,8 @@ cask "font-meslolgs-nf" do
   name "MesloLGS NF"
   homepage "https://github.com/romkatv/powerlevel10k/blob/master/font.md#manual-font-installation"
 
-  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Regular.ttf"
-  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Bold.ttf"
-  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Italic.ttf"
-  font "powerlevel10k-media-2.3.3/MesloLGS%20NF%20Bold%20Italic.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS NF Regular.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS NF Bold.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS NF Italic.ttf"
+  font "powerlevel10k-media-2.3.3/MesloLGS NF Bold Italic.ttf"
 end
