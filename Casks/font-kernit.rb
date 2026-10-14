@@ -2,8 +2,7 @@ cask "font-kernit" do
   version "1.0.0"
   sha256 :no_check
 
-  url "https://github.com/acourtneybrown/homebrew-fonts/raw/36c73834f27e9935057ce201d44fb2598eaf6cca/fonts/Kernit.zip",
-      verified: "github.com/acourtneybrown/homebrew-fonts/"
+  url "https://github.com/acourtneybrown/homebrew-fonts/raw/36c73834f27e9935057ce201d44fb2598eaf6cca/fonts/Kernit.zip"
   name "Kernit"
   homepage "https://justkernit.com/"
 
