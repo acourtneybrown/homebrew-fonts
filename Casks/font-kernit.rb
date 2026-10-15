@@ -6,6 +6,8 @@ cask "font-kernit" do
   name "Kernit"
   homepage "https://justkernit.com/"
 
+  depends_on macos: :high_sierra
+
   font "ZIP FILE CONTENT/OTF/Kernit-Filled.otf"
   font "ZIP FILE CONTENT/OTF/Kernit-Outline.otf"
 end

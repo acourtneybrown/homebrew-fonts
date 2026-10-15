@@ -6,5 +6,7 @@ cask "font-gerry" do
   name "Gerry"
   homepage "https://uglygerry.com/"
 
+  depends_on macos: :high_sierra
+
   font "Gerry.otf"
 end

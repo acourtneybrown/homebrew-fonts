@@ -6,6 +6,8 @@ cask "font-meslolgs-nf" do
   name "MesloLGS NF"
   homepage "https://github.com/romkatv/powerlevel10k/blob/master/font.md#manual-font-installation"
 
+  depends_on macos: :high_sierra
+
   font "powerlevel10k-media-2.3.3/MesloLGS NF Regular.ttf"
   font "powerlevel10k-media-2.3.3/MesloLGS NF Bold.ttf"
   font "powerlevel10k-media-2.3.3/MesloLGS NF Italic.ttf"
